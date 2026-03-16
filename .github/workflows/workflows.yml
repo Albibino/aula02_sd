@@ -48,7 +48,7 @@ jobs:
 
             - name: rodar testes
               run: |
-              pytest tests
+                pytest tests 
 
     build:
         name: build
